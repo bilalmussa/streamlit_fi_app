@@ -18,8 +18,8 @@ st.set_page_config(layout='wide')
 
 st.title("Feature Importance and Prediction App")
 st.write("**By: [Bilal Mussa](https://www.linkedin.com/in/bilalmussa/)**")
-st.write("In this app I am using **Random Forest Classifier** and **Logistic Regression** "
-         "to firstly determine and plot the importance of features and then build a model that predicts the outcome")
+st.write("In this app I am using Tree based classifcation methods and Logistic Regression "
+         "to firstly determine and plot the important features and then build a model that predicts the outcome")
 
 st.sidebar.header('Upload your CSV data')
 uploaded_file = st.sidebar.file_uploader("Upload your input CSV file", type=["csv"])
